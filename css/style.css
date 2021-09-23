@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.p-block{
+    padding: 0 150px;
+}
+
 .nav{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -47,10 +51,6 @@ header{
     justify-content: flex-end;
 }
 
-.content{
-
-}
-
 h1{
     font-family: 'Playfair Display';
     font-weight: bold;
@@ -69,3 +69,35 @@ h1{
     border-bottom: 2px solid black;
 }
 
+select{
+    max-width: 220px;
+    padding: 17px 20px;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-size: 15px;
+    margin-bottom: 35px;
+}/* нужно добавить стрелочки нормальные */
+
+.select-block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 470px;
+    max-height: 200px;
+}
+
+.content__button{
+    background-color: #FB8F1D;
+    border: #FB8F1D 2px solid;
+    padding: 16px 59px;
+    color: #fff;
+}
+
+.main-block{
+    display: flex;
+
+}
+
+.traveller{
+    max-width: 50%;
+}
