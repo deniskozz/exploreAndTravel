@@ -117,7 +117,9 @@ select {/* нужно добавить стрелочки нормальные *
 
 .learnMore-block{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 1250px;
+    margin: 0 auto;
     margin-bottom: 260px;
 }
 
@@ -155,4 +157,65 @@ select {/* нужно добавить стрелочки нормальные *
     border-radius: 8px;
     border: none;
     cursor: pointer;
+}
+
+.gallery{
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.gallery__text h2{
+    margin: 0;
+    font-size: 36px;
+}
+
+.gallery__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.list-link{
+    text-decoration: none;
+    color: #FB8F1D;
+    font-family: 'Inter', sans-serif;
+}
+
+.block__imgs{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.gallery__img{
+    border-radius: 10px;
+}
+
+.gallery__img-text{
+    position: absolute;
+    background-color: #fff;
+    padding: 11px 22px 0 0;
+    border-radius: 0 10px 0 0;
+    top: 274px;
+    line-height: 24px;
+}
+
+.gallery__img-text p{
+    margin: 0;
+}
+
+.item-name{
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.item-description{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #B8BECD;
 }
