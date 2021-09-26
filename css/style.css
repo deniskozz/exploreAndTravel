@@ -56,6 +56,8 @@ header {
     padding-right: 80px;
     display: flex;
     justify-content: flex-end;
+    max-width: 1415px;
+    margin: 0 auto;
 }
 
 h1,h2,h3{
@@ -107,8 +109,10 @@ select {/* нужно добавить стрелочки нормальные *
 .main-block {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
     margin-top: 75px;
     margin-bottom: 270px;
+    max-width: 1415px;
 }
 
 .traveller {
@@ -218,4 +222,62 @@ select {/* нужно добавить стрелочки нормальные *
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     color: #B8BECD;
+}
+
+.comment-block{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.content__text{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+
+.stars{
+    max-width: 190px;
+}
+
+blockquote{
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    line-height: 48px;
+    margin: 0;
+}
+
+.job{
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.man{
+    border-radius: 10px;
+}
+
+.man-img__slider{
+    position: relative;
+}
+
+.slider__arrows{
+    position: absolute;
+    background-color: #fff;
+    bottom: 0;
+    right: 0;
+    border-radius: 16px 0 0 0;
+    padding: 20px 0 0 30px;
+}
+
+.rightarr{
+    margin-left: 20px;
 }
