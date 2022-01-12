@@ -7,10 +7,6 @@ p{
     font-family: 'Inter', sans-serif;
 }
 
-/* .p-block {
-    padding: 0 150px;
-} */
-
 .nav {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -52,10 +48,11 @@ p{
     cursor: pointer;
 }
 
-header {
+.header-box{
+    padding-top: 40px;
     padding-right: 80px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     max-width: 1415px;
     margin: 0 auto;
 }
@@ -104,6 +101,11 @@ select {/* нужно добавить стрелочки нормальные *
     padding: 16px 59px;
     color: #fff;
     cursor: pointer;
+}
+
+.content-block_cross{
+    position: absolute;
+    left: 40%;
 }
 
 .main-block {
@@ -370,3 +372,47 @@ li{
 .footer__links{
     display: flex;
 }
+
+.footer__links > ul > li > a{
+    color: #B8BECD;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Mulish;
+}
+
+.divider--horizontal{
+    border-top: 1px solid #C4C4C4;
+    margin-top: 50px;
+}
+
+.socials__img > a{
+    text-decoration: none;
+}
+
+.socials__img{
+    display: flex;
+    max-width: 250px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.green-circle{
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    z-index: -1;
+}
+
+.yellow-cross{
+    position: absolute;
+    bottom: -13px;
+    left: -13px;
+}
+
+.cross, .circle-a{
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+}
+
