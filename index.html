@@ -20,21 +20,24 @@
 <body>
     <div class="p-block">
         <header class="header">
-            <nav class="nav">
-                <a href="#">Home</a>
-                <a href="#">Destinations</a>
-                <a href="#">About</a>
-                <a href="#">Partner</a>
-                <button class="login-btn nav__btn">
-                    Login
-                </button>
-                <button class="register-btn nav__btn">
-                    Register
-                </button>
-            </nav>
+            <div class="header-box">
+                <div class="circle"><img src="/img/circle.svg" alt=""></div>
+                <nav class="nav">
+                    <a href="#">Home</a>
+                    <a href="#">Destinations</a>
+                    <a href="#">About</a>
+                    <a href="#">Partner</a>
+                    <button class="login-btn nav__btn">
+                        Login
+                    </button>
+                    <button class="register-btn nav__btn">
+                        Register
+                    </button>
+                </nav>
+            </div>
         </header>
         <div class="main-block">
-            <div class="content">
+            <div class="content">    
                 <h1>Explore and<br> Travel</h1>
                 <p class="underline-block"><span class="underline">Hol</span>iday finder</p>
                 <div class="select-block">
@@ -118,10 +121,24 @@
                 <p class="job">Founder Circle</p>
             </div>
             <div class="man-img__slider">
+                <div class="green-circle"><svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.91229 29.7239C-2.94163 19.2289 1.78109 6.76622 12.2761 1.91229C22.771 -2.94163 35.2338 1.78106 40.0877 12.276C44.9416 22.771 40.2189 35.2338 29.7239 40.0877C19.229 44.9416 6.76621 40.2189 1.91229 29.7239ZM7.68451 27.1002C11.0954 34.4466 19.7537 37.7263 27.2314 34.3154C34.5779 30.9046 37.8575 22.2463 34.4467 14.7686C31.0358 7.29095 22.3775 4.14246 14.8998 7.55333C7.55332 10.9642 4.27365 19.7537 7.68451 27.1002Z" fill="url(#paint0_linear_1_915)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_1_915" x1="12.5652" y1="1.81889" x2="29.5502" y2="40.2278" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#BFF0DD"/>
+                    <stop offset="1" stop-color="#57D2A3"/>
+                    </linearGradient>
+                    </defs>
+                    </svg>
+                </div>
+                <div class="yellow-cross"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.817 30.8433L19.8216 20.5456C19.8781 20.1524 20.1972 19.7971 20.6101 19.7226L30.9314 19.7341C31.3255 19.7907 31.6447 19.4353 31.72 18.9111L31.7413 13.1631C31.7978 12.77 31.4413 12.4513 30.9159 12.3759L20.5946 12.3644C20.2005 12.3078 19.8441 11.9891 19.7693 11.5771L19.7738 1.27937C19.8302 0.886248 19.4738 0.567556 18.9484 0.492081L13.1872 0.466976C12.7931 0.410369 12.474 0.765751 12.3987 1.28992L12.3942 11.5877C12.3377 11.9808 12.0185 12.3362 11.6056 12.4106L1.28426 12.3991C0.890202 12.3425 0.571022 12.6979 0.495726 13.2221L0.474391 18.9701C0.417919 19.3632 0.77435 19.6819 1.29977 19.7574L11.6211 19.7688C12.0152 19.8254 12.3716 20.1441 12.4465 20.5561L12.4419 30.8538C12.3855 31.247 12.7419 31.5656 13.2673 31.6411L19.0285 31.6662C19.4414 31.5918 19.7605 31.2364 19.817 30.8433Z" fill="#FDD08D"/>
+                    </svg>
+                    </div>
                 <img src="/img/man.png" alt="" class="man">
                 <div class="slider__arrows">
-                    <a href=""><img src="img/Ellipse 10leftarr.svg" alt=""></a>
-                    <a href=""><img class="rightarr" src="img/Ellipse 9rightarr.svg" alt=""></a>
+                    <a href="#"><img src="img/Ellipse 10leftarr.svg" alt=""></a>
+                    <a href="#"><img class="rightarr" src="img/Ellipse 9rightarr.svg" alt=""></a>
                 </div>
             </div>
         </div>
@@ -138,7 +155,7 @@
                         taking a healing holiday</h3>
                     <p class="descr">‘Helaing holidays’ are on the rise 
                         tohelp maximise your health and happines...</p>
-                    <a href="">Read more</a>
+                    <a href="#">Read more</a>
                 </div>
                 <div class="item">
                     <img src="img/Japanese-food.png" alt="">
@@ -146,7 +163,7 @@
                         to try Japanese food</h3>
                     <p class="descr">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
                         to visit...</p>
-                    <a href="">Read more</a>
+                    <a href="#">Read more</a>
                 </div>
                 <div class="item">
                     <img src="img/Yucatan.png" alt="">
@@ -155,7 +172,7 @@
                     <p class="descr">It’s remote and challenging to get,
                         but braving the jungle and exploring
                         these ruins without the...</p>
-                    <a href="">Read more</a>
+                    <a href="#">Read more</a>
                 </div>
                 <div class="item">
                     <img src="img/surf.png" alt="">
@@ -164,7 +181,7 @@
                     <p class="descr">If learning to surf has in on your to-
                         do list for a while, the good news
                         is: it’s never too late...</p>
-                    <a href="">Read more</a>
+                    <a href="#">Read more</a>
                 </div>
             </div>
         </div>
@@ -181,40 +198,47 @@
                     <div class="footer__links">
                         <ul>
                             <li class="title-li">Destinations</li>
-                            <li><a href="">Africa</a></li>
-                            <li><a href="">Antarctica</a></li>
-                            <li><a href="">Asia</a></li>
-                            <li><a href="">Europe</a></li>
-                            <li><a href="">America</a></li>
+                            <li><a href="#">Africa</a></li>
+                            <li><a href="#">Antarctica</a></li>
+                            <li><a href="#">Asia</a></li>
+                            <li><a href="#">Europe</a></li>
+                            <li><a href="#">America</a></li>
                         </ul>
                         <ul>
                             <li class="title-li">Shop</li>
-                            <li><a href="">Destination Guides</a></li>
-                            <li><a href="">Pictorial & Gifts</a></li>
-                            <li><a href="">Special Offers</a></li>
-                            <li><a href="">Delivery Times</a></li>
-                            <li><a href="">FAQs</a></li>
+                            <li><a href="#">Destination Guides</a></li>
+                            <li><a href="#">Pictorial & Gifts</a></li>
+                            <li><a href="#">Special Offers</a></li>
+                            <li><a href="#">Delivery Times</a></li>
+                            <li><a href="#">FAQs</a></li>
                         </ul>
                         <ul>
                             <li class="title-li">Interests</li>
-                            <li><a href="">Adventure Travel</a></li>
-                            <li><a href="">Art And Culture</a></li>
-                            <li><a href="">Wildlife And Nature</a></li>
-                            <li><a href="">Family Holidays</a></li>
-                            <li><a href="">Food And Drink</a></li>
+                            <li><a href="#">Adventure Travel</a></li>
+                            <li><a href="#">Art And Culture</a></li>
+                            <li><a href="#">Wildlife And Nature</a></li>
+                            <li><a href="#">Family Holidays</a></li>
+                            <li><a href="#">Food And Drink</a></li>
                         </ul>
                     </div>
                 </div>
+                <div class="divider--horizontal"></div>
                 <div class="footer_socials">
                     <div class="socials__img">
                         <a href="#">
-                            <img src="img/twit.svg" alt="">
+                            <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_1_995)"><path d="M24.999 2.3741C24.0253 2.78177 23.0273 3.04556 22.0536 3.16547C23.1733 2.51799 23.9036 1.58273 24.3174 0.383693C23.295 0.959233 22.1996 1.36691 21.0555 1.58273C20.0331 0.527578 18.7916 0 17.3067 0C15.8948 0 14.6777 0.503597 13.6797 1.48681C12.6816 2.47002 12.1704 3.66906 12.1704 5.05995C12.1704 5.44365 12.2191 5.82734 12.2921 6.21103C10.1986 6.11511 8.22688 5.58753 6.40117 4.65228C4.57546 3.71703 3.01753 2.47002 1.72736 0.935252C1.26485 1.72662 1.02142 2.56595 1.02142 3.47722C1.02142 4.34053 1.21617 5.15588 1.62999 5.8753C2.04382 6.6187 2.6037 7.21823 3.2853 7.67386C2.45765 7.64988 1.67868 7.43405 0.972738 7.02638V7.09832C0.972738 8.32134 1.36222 9.3765 2.14119 10.3118C2.92016 11.223 3.89387 11.8225 5.08666 12.0623C4.64849 12.1823 4.18598 12.2302 3.74781 12.2302C3.4557 12.2302 3.13924 12.2062 2.7741 12.1583C3.09056 13.1655 3.69913 14.0048 4.57546 14.6523C5.4518 15.2998 6.44986 15.6355 7.56962 15.6595C5.71957 17.0983 3.57741 17.8177 1.21617 17.8177C0.753654 17.8177 0.339827 17.7938 -0.0253143 17.7458C2.36028 19.2566 4.98929 20 7.83739 20C9.6631 20 11.3671 19.7122 12.9737 19.1607C14.5803 18.5851 15.9435 17.8417 17.0633 16.8825C18.1831 15.9233 19.1811 14.8201 19.9844 13.5971C20.8121 12.3501 21.4206 11.0552 21.8101 9.71223C22.1996 8.3693 22.4187 7.0024 22.4187 5.65947C22.4187 5.3717 22.4187 5.15588 22.3944 5.01199C23.4411 4.26858 24.2931 3.40528 24.999 2.3741Z" fill="black"/></g><defs><clipPath id="clip0_1_995"><rect width="25" height="20" fill="white"/></clipPath></defs></svg>
                         </a>
                         <a href="#">
-                            <img src="img/fb.svg" alt="">
+                            <svg width="10" height="22" viewBox="0 0 10 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.64671 7.21043V5.3054C6.64671 5.01862 6.66667 4.7933 6.68663 4.64991C6.70659 4.48603 6.76647 4.34264 6.86627 4.19925C6.96607 4.05587 7.10579 3.95344 7.30539 3.89199C7.50499 3.83054 7.78443 3.81006 8.12375 3.81006H9.98004V0H7.00599C5.28942 0 4.07186 0.409683 3.33333 1.24953C2.59481 2.08939 2.21557 3.29795 2.21557 4.93669V7.21043H0V11H2.21557V22H6.64671V11H9.6008L10 7.21043H6.64671Z" fill="black"/>
+                            </svg>
                         </a>
                         <a href="#">
-                            <img src="img/inst.svg" alt="">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.9305 0H6.06953C2.71746 0 0 2.71746 0 6.06953V15.9305C0 19.2825 2.71746 22 6.06953 22H15.9305C19.2825 22 22 19.2825 22 15.9305V6.06953C22 2.71746 19.2825 0 15.9305 0ZM20.0473 15.9305C20.0473 18.2086 18.1923 20.0473 15.9305 20.0473H6.06953C3.79142 20.0473 1.95266 18.1923 1.95266 15.9305V6.06953C1.95266 3.80769 3.80769 1.95266 6.06953 1.95266H15.9305C18.2086 1.95266 20.0473 3.80769 20.0473 6.06953V15.9305Z" fill="black"/>
+                                <path d="M11 5.33716C7.87573 5.33716 5.321 7.87562 5.321 10.9999C5.321 14.1241 7.85946 16.6789 11 16.6789C14.1243 16.6789 16.679 14.1404 16.679 10.9999C16.679 7.87562 14.1243 5.33716 11 5.33716ZM11 14.7262C8.94969 14.7262 7.27366 13.0664 7.27366 11.0162C7.28993 8.94958 8.94969 7.28982 11 7.28982C13.0503 7.28982 14.7263 8.94958 14.7263 10.9999C14.7263 13.0502 13.0503 14.7262 11 14.7262Z" fill="black"/>
+                                <path d="M16.9068 3.67749C16.5325 3.67749 16.1583 3.82394 15.8979 4.10057C15.6376 4.36092 15.4748 4.73518 15.4748 5.10944C15.4748 5.4837 15.6213 5.85796 15.8979 6.11832C16.1583 6.37867 16.5325 6.5414 16.9068 6.5414C17.2811 6.5414 17.6553 6.39495 17.9157 6.11832C18.176 5.85796 18.3388 5.4837 18.3388 5.10944C18.3388 4.73518 18.1923 4.36092 17.9157 4.10057C17.6553 3.82394 17.2973 3.67749 16.9068 3.67749Z" fill="black"/>
+                            </svg>
                         </a>
                         <a href="#">
                             <img src="img/linkedin.svg" alt="">
